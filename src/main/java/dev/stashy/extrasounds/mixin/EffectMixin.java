@@ -20,7 +20,7 @@ public abstract class EffectMixin extends AbstractClientPlayerEntity
 {
     public EffectMixin(ClientWorld world, GameProfile profile, @Nullable PlayerPublicKey publicKey)
     {
-        super(world, profile, publicKey);
+        super(world, profile);
     }
 
     @Override
